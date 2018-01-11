@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to my <%= title %></p>
+    <form id="addTodoForm">
+      <div>
+        <label for="task">Task</label>
+        <input type="text" name="task" placeholder="Todo Task">
+      </div>
+      <div>
+        <label for="description">Description</label>
+        <input type="text" name="description" placeholder="Todo Description">
+      </div>
+      <button type="submit">Add Todo</button>
+    </form>
+    <div id="toDoListDiv">
+    </div>
+  </body>
+</html>
